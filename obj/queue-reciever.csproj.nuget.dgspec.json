@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/satnam/development/dotNet/service-bus/queue-reciever/queue-reciever.csproj": {}
+  },
+  "projects": {
+    "/home/satnam/development/dotNet/service-bus/queue-reciever/queue-reciever.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/satnam/development/dotNet/service-bus/queue-reciever/queue-reciever.csproj",
+        "projectName": "queue-reciever",
+        "projectPath": "/home/satnam/development/dotNet/service-bus/queue-reciever/queue-reciever.csproj",
+        "packagesPath": "/home/satnam/.nuget/packages/",
+        "outputPath": "/home/satnam/development/dotNet/service-bus/queue-reciever/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/satnam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "microsoft.azure.servicebus": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
